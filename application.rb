@@ -3,6 +3,8 @@ require 'sinatra'
 
 $site_name = "Celebrity Site"
 
-get "/*" do
+raise "foo"
+
+get "/" do
   erb :index
 end
