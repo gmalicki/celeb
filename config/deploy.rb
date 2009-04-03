@@ -1,4 +1,4 @@
-set :application, "cougar_jobs"
+set :application, "celeb"
 set :user, "root" # I used root, less problems, but not recommended.
  
 set :scm, :git
@@ -6,10 +6,10 @@ set :scm, :git
 # This distinction is necessary if the way you access github locally
 # is different from the way your production environment will access it.
 # For me it was the case.
-set :local_repository, "git@github.com:gmalicki/cougar_jobs.git"
-set :repository, "git@github.com:gmalicki/cougar_jobs.git"
+set :local_repository, "git@github.com:gmalicki/celeb.git"
+set :repository, "git@github.com:gmalicki/celeb.git"
  
-set :deploy_to, "/usr/local/www/" # path to app on remote machine
+set :deploy_to, "/usr/local/www/celeb/" # path to app on remote machine
 #set :deploy_via, :remote_cache # quicker checkouts from github
  
 set :domain, '174.133.53.58' # your remote machine's domain name goes here
