@@ -9,5 +9,5 @@ get "/foo" do
 end
 
 get "/" do
-  erb :index
+  erb :index, :layout => false
 end
