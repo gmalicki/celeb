@@ -7,3 +7,4 @@ Sinatra::Application.set(
 )
 
 require 'application'
+run Sinatra::Application
